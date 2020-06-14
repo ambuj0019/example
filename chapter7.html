@@ -1,0 +1,198 @@
+<htm>
+<head>
+    <title>Chapter 7</title>
+     <style type="text/css">
+ body {
+ padding: 20px;}
+ h1, h2, h3, a {
+ font-weight: normal;
+ color: #0088dd;
+ margin: 0px;}
+ h1 {
+ font-family: Georgia, Times, serif;
+ font-size: 250%;
+ text-shadow: 2px 2px 3px #666666;
+ padding-bottom: 10px;}
+ h2 {
+ font-family: "Gill Sans", Arial, sans-serif;
+ font-size: 90%;
+ text-transform: uppercase;
+ letter-spacing: 0.2em;}
+ h3 {
+ font-size: 150%;}
+ p {
+ font-family: Arial, Verdana, sans-serif;
+ line-height: 1.4em;
+ color: #665544;}
+ p.intro:first-line {
+ font-weight: bold;}
+ .credits {
+ font-style: italic;
+ text-align: right;}
+ a {
+ text-decoration: none;}
+ a:hover {
+ text-decoration: underline;}
+ </style>
+    </head>
+    <body>
+        <h1>Chapter 7</h1>
+        <hr />
+    <h2>Forms</h2>
+        <ul>
+        <li>How to collect information from visitors </li>
+        <li>Different kind of form controls</li>
+        <li>New HTML5 form controls</li>
+        </ul>
+        
+        <p>creating form for username and password input</p>
+        <form action="https://www.google.com" >
+            <p>Username:
+            
+            <input type="text" name="Username" size="15" maxlength="30" required="required" />
+            </p>
+            <p>password :
+            <input type="password" name="password" size="15" maxlength="30" required="required" />
+            </p>
+            <hr />
+        
+        </form>
+        <form action="https://www.google.com">
+        <p>write your comment here......</p>
+            <textarea name="comment" cols="30" rows="5" required="required"> comment here....</textarea>
+        </form>
+        <hr />
+        <h3>exmaple for radio button</ h3>
+        <form>
+            
+            
+            
+        <h4>please select your favorite</h4>
+            <input type="radio" name="favorite" value="egg" required="required" />egg
+            <input type="radio" name="favorite" value="mutton" required="required" />mutton
+            <input type="radio" name="favorite" value="chicken"required="required" />chicken
+        </form>
+        <hr />
+        
+        <h5>Example for checkbox</h5>
+        <form>
+        <p>Please select your favourite</p>
+            <input type="checkbox" name="dish" value="Book" />Book
+            <input type="checkbox" name="dish" value="Novel" />Novel
+            <input type="checkbox" name="dish" value="News" />News
+        </form>
+        <hr />
+        <h6>Example for dropdown box</h6>
+        <form>
+        <p>Please select the option</p>
+            <select>
+            <option value="january">january</option>
+            <option value="february">february</option>
+            <option value="march">march</option>
+            <option value="april">april</option>
+            <option value="may">may</option>
+            
+            </select>
+        
+        </form>
+        <hr />
+        <form action="http://www.example.com/profile.php">
+<p>Do you play any of the following instruments?
+ (You can select more than one option by holding
+ down control on a PC or command key on a Mac
+ while selecting different options.)</p>
+<select name="instruments" size="3"
+ multiple="multiple">
+ <option value="guitar" selected="selected">
+ Guitar</option>
+ <option value="drums">Drums</option>
+ <option value="keyboard"
+ selected="selected">Keyboard</option>
+ <option value="bass">Bass</option>
+</select>
+</form>
+        <hr />
+        <h7>Example for upload and submit button</h7>
+        <form>
+        <p> choose your file in p3 format</p>
+            <input type="file" name="user.song" required="required" /><br />
+            <input type="submit" value="upload" />
+        
+        </form>
+        <hr />
+        <h8>example for submit button</h8>
+     <form>
+        <p>Submit your email here for our email subscription list</p>
+        <input type="text" name="email" required="required" />
+         <input type="submit" name="subscribe"  value="subscribe"  />
+        </form>
+        <hr />
+    <fieldset>
+        <legend>contact details</legend>
+        <lable>Email<br />
+            <input type="text" required="required"  />
+        </lable><br />
+        <label>Mobile<br />
+        <input type="text" required="required"/>
+        </label><br />
+        <lable>address<br />
+        <input type="text" required="required"/>
+            
+        </lable>
+        </fieldset>
+        <hr/>
+<form action="http://www.example.com/login/"
+ method="post">
+<label for="username">Username:</label>
+<input type="text" name="username"
+ required="required" /><br />
+<label for="password">Password:</label>
+<input type="password" name="password"
+ required="required" />
+<input type="submit" value="Submit" />
+</form>
+        <hr />
+        <form>
+       <lable for="username">Departure date</lable>
+            <input type="date" name="depart" required="required"/>
+            <input type="submit" name="submit"/>
+        </form>
+        
+        <hr />
+        <div id="header">
+<img src="images/logo.gif" alt="Anish Kapoor" />
+<ul>
+ <li><a href="index.html">Home</a></li>
+ <li><a href="biography.html">Biography</a></li>
+ <li><a href="works.html">Works</a></li>
+ <li><a href="contact.html">Contact</a></li>
+</ul>
+</div><!-- end of header -->
+        
+        
+        <hr />
+        <iframe>
+        width="200"
+            height="200"
+            src="www.google.com"
+        
+        
+        
+        </iframe>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </body>
+
+
+</htm>
